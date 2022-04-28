@@ -1,0 +1,22 @@
+.dropdown{
+    display: inline-block;
+    label{
+        color:#333333 ;
+        margin:10px 0;
+    }
+    select{
+            width: 180px;
+            margin: 10px 0;
+            margin-right: 40px;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            border: 2px solid #B9B9B9 ;
+            border-radius: 5px;
+        
+        
+    }
+    option{
+        padding: 5px;
+    font-size: 15px;   
+ };
+}

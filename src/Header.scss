@@ -1,0 +1,34 @@
+$headingColor:#E4E4E4;
+.header{
+    background-color: $headingColor;
+    height: 62 * (62/160) px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+
+    p{
+       font-family: Regular;
+       padding: 0 10px 0 50px;
+       height: 34 * (34/160) px;
+        color:#333333;
+        font-size: 23 *(23/160) px;
+        font-weight: 800;
+        display: inline-block;     
+     }
+    .delete{
+       
+        font-size: 18px;
+        height: 16.25 * (16.25/160) px;
+        width: 20px;
+        color:#CE5C4E;
+    }
+    
+}
+.chever{
+    margin: 0 10px;
+    font-size: 18px;
+    height: 16.25 * (16.25/160) px;
+    width: 20px;
+    color: #333;
+}
