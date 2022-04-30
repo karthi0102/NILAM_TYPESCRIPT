@@ -1,0 +1,19 @@
+.BlockList{
+    padding: 10px;
+    .BlockList-Header{
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .BlockList-Button{
+        button{
+            padding: 10px 20px;
+            margin: 20px;
+            background-color:var(--blue);
+            color:var(--white);
+            font-size: 20px;
+            border-color:var(--white);
+            box-sizing: border-box;
+        }
+    }
+}

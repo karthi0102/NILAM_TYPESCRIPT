@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+
 import './App.scss';
 import LandForm from './LandForm';
-import Header from './Header';
+import AddBlock from './AddBlock';
+import BlockList from './BlockList';
 function App() {
   return (
     <div className="App">
-   <LandForm />
+  <AddBlock />
     </div>
   );
 }

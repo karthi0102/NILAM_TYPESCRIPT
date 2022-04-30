@@ -1,0 +1,27 @@
+.table-container{
+  margin:30px;
+  display:flex;
+  justify-content: center;
+}
+
+.table-heading{
+    background-color: var(--primary);
+}
+
+.table-heading{
+  th{
+    padding: 15px 30px;
+    font-size: 20px;
+    text-align: center;
+    color:var(--white);
+  }
+}
+
+table,td,th{
+  border: #dddddd 0.5px solid;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 20px;
+}
+
